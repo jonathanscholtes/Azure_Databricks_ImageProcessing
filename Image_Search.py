@@ -17,7 +17,7 @@ from msrest.authentication import CognitiveServicesCredentials
 
 # COMMAND ----------
 
-products = [{'Name': 'PAM Original 6 OZ', 'File': 'PAM_Original_6_OZ.jpg' }]
+products = [{'Name': 'PAM Original Cooking Spray, 6 Ounce', 'File': 'PAM_Original_6_OZ.jpg' }]
 
 sites = ['walmart.com','target.com']
 
@@ -72,7 +72,7 @@ def retrieve_images(search,key):
   client = ImageSearchAPI(CognitiveServicesCredentials(key))
  
   try:
-    image_results = client.images.search(query=search,freshness='Month')
+    image_results = client.images.search(query=search)
     
     print("Search images for query " + search)
     return image_results

@@ -8,3 +8,6 @@ The code and files in this GitHub repo are used by the following blog posts:
 - https://stochasticcoder.com/2018/06/12/python-image-processing-on-azure-databricks-part-2-image-search-api/
 * Image_Search.py
 * Images
+- https://stochasticcoder.com/2018/06/19/python-image-processing-on-azure-databricks-part-3-text-recognition/
+* Image_Text_Recognize.py
+* Images
